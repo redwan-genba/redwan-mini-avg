@@ -1,0 +1,6 @@
+{
+  "name": "@mini-ag/api-contracts",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Shared Zod schemas — the single source of truth for data shapes used by both web and api. To be built on Day 2."
+}

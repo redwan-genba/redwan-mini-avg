@@ -1,0 +1,6 @@
+{
+  "name": "@mini-ag/web",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Frontend app — placeholder. Will be built with Vite + React + Zustand on Day 4."
+}
