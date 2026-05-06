@@ -8,8 +8,16 @@ importers:
 
   .: {}
 
-  apps/api: {}
+  apps/api:
+    dependencies:
+      '@mini-ag/api-contracts':
+        specifier: workspace:*
+        version: link:../../packages/api-contracts
 
-  apps/web: {}
+  apps/web:
+    dependencies:
+      '@mini-ag/api-contracts':
+        specifier: workspace:*
+        version: link:../../packages/api-contracts
 
   packages/api-contracts: {}

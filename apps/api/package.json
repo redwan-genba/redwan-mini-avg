@@ -2,5 +2,8 @@
   "name": "@mini-ag/api",
   "version": "0.1.0",
   "private": true,
-  "description": "Backend API — placeholder. Will be built with Express + MongoDB on Days 2–3."
+  "description": "Backend API — placeholder. Will be built with Express + MongoDB on Days 2–3.",
+  "dependencies": {
+    "@mini-ag/api-contracts": "workspace:*"
+  }
 }
